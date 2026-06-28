@@ -17,3 +17,8 @@
   echo TRANSACTIONS_FILE=transactions.xslx >> .env
   ```
 
+- To run the project
+
+  ```
+  uv run Code.py
+  ```
