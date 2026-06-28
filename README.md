@@ -14,13 +14,14 @@
 
   ```
   uv add python-dotenv
+  uv add openpyxl
   ```
 
 - Create .env
   
   ```
   pwd
-  echo TRANSACTIONS_FILE=transactions.xslx >> .env
+  echo TRANSACTIONS_FILE=transactions.xlsx >> .env
   ```
 
 - To run the project
