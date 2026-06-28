@@ -8,10 +8,16 @@
   git clone git@github.com:ayushkpai/block-graph.git
   ```
 
-- Next install python 
+- Next install python and add dependencies
 
   Also documented in dotfiles
 
+  ```
+  uv add python-dotenv
+  ```
+
+- Create .env
+  
   ```
   pwd
   echo TRANSACTIONS_FILE=transactions.xslx >> .env
