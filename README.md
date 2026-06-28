@@ -20,7 +20,6 @@
 - Create .env
   
   ```
-  pwd
   echo TRANSACTIONS_FILE=transactions.xlsx >> .env
   ```
 
